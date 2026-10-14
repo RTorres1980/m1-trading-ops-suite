@@ -1,5 +1,7 @@
 # Trading Operations Suite
 
+![CI](https://github.com/RTorres1980/m1-trading-ops-suite/actions/workflows/ci.yml/badge.svg)
+
 An end-of-day trading operations workflow for a retail brokerage, built on synthetic data. It reconciles the firm's trade records against broker confirmations, classifies every break, runs post-trade compliance surveillance, and produces an Excel report, a SQLite database and an interactive dashboard.
 
 The data generator plants known problems (missing confirmations, quantity and price differences, wrong settlement dates, off-hours executions, fat-finger orders), and the tests check that the workflow finds every one of them.
